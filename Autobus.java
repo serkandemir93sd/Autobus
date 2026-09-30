@@ -19,4 +19,18 @@ public class Autobus
     {
         return anhanger;
 }
+    public void setName(String neuKennzeichen)
+    {
+        kennzeichen = neuKennzeichen;
+    }
+
+    public void setAlter(int neuSitzplatte)
+    {
+        sitzplatte = neuSitzplatte;
+    }
+
+    public void setMatura(boolean neuAnhanger)
+    {
+        anhanger = neuAnhanger;
+    }
 }
