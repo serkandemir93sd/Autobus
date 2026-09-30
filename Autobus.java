@@ -25,7 +25,7 @@ public class Autobus
     public boolean getAnhanger()
     {
         return anhanger;
-}
+    }
     public void setKennzeichen(String neuKennzeichen)
     {
         kennzeichen = neuKennzeichen;
