@@ -10,6 +10,13 @@ public class Autobus
         setSitzplatte(29);
         setAnhanger(false);
     }
+    
+    public Autobus(String neuKennzeichen, int neuSitzplatte, boolean neuAnhanger)  //Konstruktoren
+    {
+        setKennzeichen(neuKennzeichen);
+        setSitzplatte(neuSitzplatte);
+        setAnhanger(neuAnhanger);
+    }
 
 
     public String getKennzeichen()
